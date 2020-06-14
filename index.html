@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traversing</title>
+    <style>
+        body>section>div:nth-child(3)>div:last-child>ul>li:nth-child(2)>ol>li:last-child{
+            color: red;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+<h1>Traversing with CSS</h1>
+<section>
+    <div></div>
+    <div></div>
+    <div>
+        <div>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>A</li>
+                <li>
+                    <ol>
+                        <li>A</li>
+                        <li>C</li>
+                        <li>Traversing</li>
+                    </ol>
+                </li>
+                <li>C</li>
+            </ul>
+        </div>
+    </div>
+    <div></div>
+</section>
+
+
+</body>
+</html>
